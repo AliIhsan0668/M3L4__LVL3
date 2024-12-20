@@ -2,7 +2,7 @@ import sqlite3
 from config import DATABASE
 
 skills = [ (_,) for _ in (['Python', 'SQL', 'API', 'Discord'])]
-statuses = [ (_,) for _ in (['Prototip Oluşturma', 'Geliştirme Aşamasında', 'Tamamlandı, kullanıma hazır', 'Güncellendi', 'Tamamlandı, ancak bakımı yapılmadı'])]
+statuses = [ (_,) for _ in (['Prototip Oluşturma', 'Geliştirme Aşamasında', 'Tamamlandı', 'Güncellendi', 'Bırakılmış/Desteklenmiyor'])]
 
 class DB_Manager:
     def __init__(self, database):
